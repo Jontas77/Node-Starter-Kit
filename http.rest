@@ -1,0 +1,20 @@
+GET http://localhost:3000/albums
+
+### 
+
+POST http://localhost:3000/albums
+Content-Type: application/json
+
+ {
+   " albumId": "16",
+    "artistName": "Beyoncé",
+    "collectionName": "2016",
+    "artworkUrl100":
+      "http://is1.mzstatic.com/image/thumb/Music20/v4/23/c1/9e/23c19e53-783f-ae47-7212-03cc9998bd84/source/100x100bb.jpg",
+    "releaseDate": "2016-04-25T07:00:00Z",
+    "primaryGenreName": "Pop",
+    "url": "https://www.youtube.com/embed/PeonBmeFR8o?rel=0&amp;controls=0&amp;showinfo=0",
+  }
+ 
+
+
